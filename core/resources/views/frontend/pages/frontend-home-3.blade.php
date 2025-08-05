@@ -95,7 +95,6 @@ plugins\PageBuilder\Addons\Category\CategoryProjectOne;use plugins\PageBuilder\P
                                     <img src="/assets/static/img/banner/rating.svg" alt="rating">
                                 </div>
                                
-                                    {!! freelancer_rating_for_profile_details_page($topOne->id) !!}
                             </div>
                         </div>
 
@@ -148,12 +147,12 @@ plugins\PageBuilder\Addons\Category\CategoryProjectOne;use plugins\PageBuilder\P
     @php
         $projectPromotionWidget = \App\Models\PageBuilder::where('addon_name', 'ProjectPromotion')->first();
     @endphp
-    {!! plugins\PageBuilder\PageBuilderSetup::render_widgets_by_name_for_frontend(plugins\PageBuilder\PageBuilderSetup::getWidgetArgs($projectPromotionWidget)) !!}
+    {{-- {!! plugins\PageBuilder\PageBuilderSetup::render_widgets_by_name_for_frontend(plugins\PageBuilder\PageBuilderSetup::getWidgetArgs($projectPromotionWidget)) !!} --}}
 
     @php
         $promotionProfile = \App\Models\PageBuilder::where('addon_name', 'ProfilePromotion')->first();
     @endphp
-    {!! plugins\PageBuilder\PageBuilderSetup::render_widgets_by_name_for_frontend(plugins\PageBuilder\PageBuilderSetup::getWidgetArgs($promotionProfile)) !!}
+    {{-- {!! plugins\PageBuilder\PageBuilderSetup::render_widgets_by_name_for_frontend(plugins\PageBuilder\PageBuilderSetup::getWidgetArgs($promotionProfile)) !!} --}}
 
     
     <!-- How it Works  Clients area starts -->
@@ -207,7 +206,7 @@ plugins\PageBuilder\Addons\Category\CategoryProjectOne;use plugins\PageBuilder\P
         $categoryProjectOneWidget = \App\Models\PageBuilder::where('addon_name', 'CategoryProjectOne')->first();
         $CategoryJobOne = \App\Models\PageBuilder::where('addon_name', 'CategoryJobOne')->first();
     @endphp
-    {!! PageBuilderSetup::render_widgets_by_name_for_frontend(PageBuilderSetup::getWidgetArgs($categoryProjectOneWidget)) !!}
+    {{-- {!! PageBuilderSetup::render_widgets_by_name_for_frontend(PageBuilderSetup::getWidgetArgs($categoryProjectOneWidget)) !!} --}}
 
     <!-- Category area starts -->
     <section class="category-area pat-50 pab-50" data-padding-top="50" data-padding-bottom="50" style="background-color:#fbfbfb;">
@@ -264,7 +263,7 @@ plugins\PageBuilder\Addons\Category\CategoryProjectOne;use plugins\PageBuilder\P
     @php
         $CategoryJobOne = \App\Models\PageBuilder::where('addon_name', 'CategoryJobOne')->first();
     @endphp
-    {!! PageBuilderSetup::render_widgets_by_name_for_frontend(PageBuilderSetup::getWidgetArgs($CategoryJobOne)) !!}
+    {{-- {!! PageBuilderSetup::render_widgets_by_name_for_frontend(PageBuilderSetup::getWidgetArgs($CategoryJobOne)) !!} --}}
 
     @php
         $explore_projects = Project::select('id', 'title', 'slug', 'user_id', 'basic_regular_charge', 'basic_discount_charge', 'basic_delivery', 'description', 'image', 'load_from')

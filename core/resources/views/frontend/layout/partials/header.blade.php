@@ -1,6 +1,5 @@
 
 <!DOCTYPE html>
-<html lang="{{get_user_lang()}}" dir="{{get_user_lang_direction()}}">
 
 <head>
     {!! renderHeadStartHooks() !!}
@@ -46,9 +45,9 @@
 
 
 
-    @if(get_user_lang_direction() == 'rtl')
+    {{-- @if(get_user_lang_direction() == 'rtl')
         <link rel="stylesheet" href="{{ asset('assets/frontend/css/right-rtl.css') }}">
-    @endif
+    @endif --}}
     @include('frontend.layout.partials.root-style')
     <!-- page css -->
     @yield('style')
@@ -56,7 +55,7 @@
     @if(request()->routeIs('homepage'))
         <title>{{get_static_option('site_title')}} - {{get_static_option('site_tag_line')}}</title>
 
-        {!! render_site_meta() !!}
+        {{-- {!! render_site_meta() !!} --}}
 
     @elseif( request()->routeIs('frontend.dynamic.page') && $page_type === 'page' )
 

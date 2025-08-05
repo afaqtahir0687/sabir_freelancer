@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{get_user_lang()}}" dir="{{get_user_lang_direction()}}">
+{{-- <html lang="{{get_user_lang()}}" dir="{{get_user_lang_direction()}}"> --}}
 
 <head>
     <meta charset="UTF-8">
@@ -26,9 +26,9 @@
     <link rel="stylesheet" href="{{ asset('assets/common/css/toastr.min.css') }}">
     <!-- Dashboard Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/backend/css/admin_dashboard.css') }}">
-    @if(get_user_lang_direction() == 'rtl')
+    {{-- @if(get_user_lang_direction() == 'rtl')
         <link rel="stylesheet" href="{{ asset('assets/backend/css/admin-rtl.css') }}">
-    @endif
+    @endif --}}
     @include('frontend.layout.partials.root-style')
     @yield('style')
 

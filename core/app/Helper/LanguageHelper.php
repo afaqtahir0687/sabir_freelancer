@@ -64,13 +64,13 @@ class LanguageHelper
         }
         return self::$default->direction;
     }
-    public static function user_lang_slug(){
-        if (self::$user_lang_slug === null) {
-            $default = self::lang_instance()->where('default', '1')->first();
-            self::$user_lang_slug = session()->get('lang') ?? $default->slug;
-        }
-        return self::$user_lang_slug;
-    }
+    // public static function user_lang_slug(){
+    //     if (self::$user_lang_slug === null) {
+    //         $default = self::lang_instance()->where('default', '1')->first();
+    //         self::$user_lang_slug = session()->get('lang') ?? $default->slug;
+    //     }
+    //     return self::$user_lang_slug;
+    // }
     public static function user_lang_dir()
     {
         return self::user_lang()->direction;

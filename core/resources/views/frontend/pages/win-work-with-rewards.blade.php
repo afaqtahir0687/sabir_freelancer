@@ -63,13 +63,110 @@
                 <div class="about-wrapper-right">
                     <div class="about-wrapper-thumb">
                         <div class="about-wrapper-thumb-item">
-                        <a href="https://www.youtube.com/watch?v=ILH_xzb5gq4"><img src="https://www.rightfreelancer.com/assets/frontend/img/rightfreelancer_tutorial.png" alt=""></a>
+                        {{-- <a href="https://www.youtube.com/watch?v=ILH_xzb5gq4"></a> --}}
+                            <img src="https://rightfreelancer.com/assets/frontend/img/boosted.png" alt="">
                         </div>
+                    </div>
+                </div>
+    
+        </div>
+
+    </div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h3><b>Discover Our Ad Solutions</b></h3>
+            <p>Explore three effective ways to reach your career goals with our ad products.</p>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card shadow" style="transition: transform 0.3s ease, box-shadow 0.3s ease; border-radius: 10px; overflow: hidden;">
+                    <div class="card-header" style="background-color: #f8f9fa; padding: 1rem; border-bottom: 1px solid #e0e0e0;">
+                        <h6 style="color: #6c757d; margin-bottom: 0.5rem;">Spotlight Your Profile</h6>
+                        <h4 style="margin: 0;  color: #343a40;"><b>Boosted Pro Profile</b></h4>
+                    </div>
+                    <div class="card-body" style="padding: 1rem;">
+                        <p style="font-size: 0.95rem; color: #555; margin-bottom: 1rem;">
+                            Investing in Connects can enhance your likelihood of being hired by up to 2x.
+                        </p>
+                        <img src="https://rightfreelancer.com/assets/frontend/img/boosted-1.jpg" alt="Boosted Profile" class="img-fluid" style="width: 100%; height: auto; border-radius: 6px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" style="transition: transform 0.3s ease, box-shadow 0.3s ease; border-radius: 10px; overflow: hidden;">
+                    <div class="card-header" style="background-color: #f8f9fa; padding: 1rem; border-bottom: 1px solid #e0e0e0;">
+                        <h6 style="color: #6c757d; margin-bottom: 0.5rem;">Show Your Availability</h6>
+                        <h4style="margin: 0;  color: #343a40;"><b>Availability Badge</b></h4style=>
+                    </div>
+                    <div class="card-body" style="padding: 1rem;">
+                        <p style="font-size: 0.95rem; color: #555; margin-bottom: 1rem;">
+                           Freelancers with this badge receive up to 75% more job invitations.
+                        </p>
+                        <img src="https://rightfreelancer.com/assets/frontend/img/boosted-1.jpg" alt="Boosted Profile" class="img-fluid" style="width: 100%; height: auto; border-radius: 6px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" style="transition: transform 0.3s ease, box-shadow 0.3s ease; border-radius: 10px; overflow: hidden;">
+                    <div class="card-header" style="background-color: #f8f9fa; padding: 1rem; border-bottom: 1px solid #e0e0e0;">
+                        <h6 style="color: #6c757d; margin-bottom: 0.5rem;">Reach New Heights</h6>
+                        <h4 style="margin: 0;  color: #343a40;"><b>Enhanced Proposals</b></h4>
+                    </div>
+                    <div class="card-body" style="padding: 1rem;">
+                        <p style="font-size: 0.95rem; color: #555; margin-bottom: 1rem;">
+                           Generates 10x greater returns on ad spend 3
+                        </p>
+                        <img src="https://rightfreelancer.com/assets/frontend/img/boosted-1.jpg" alt="Boosted Profile" class="img-fluid" style="width: 100%; height: auto; border-radius: 6px;">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+{{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+
+<div class="container my-5">
+    <h2 class="fw-bold">Ad Payment with Connects</h2>
+    <p>
+        On <strong>RightFreelancer</strong>, ads are purchased using <strong>Connects</strong>, a virtual currency. You can also select a custom amount to match your specific needs and budget. Each Connect is priced at <strong>$0.15 (USD)</strong>. Freelancers use Connects to submit proposals and bid on ad products such as Boosted Proposals, Boosted Profiles, and the Availability Badge.
+    </p>
+
+    <h3 class="mt-4 fw-bold">Why Use Ads?</h3>
+    <p>
+        Using ads is completely optional—you choose when and if you want to use them. While ads aren’t necessary to submit proposals, they help increase your visibility, land the projects you care about most, and streamline your workflow to boost your earnings on high-quality jobs.
+    </p>
+
+    <h3 class="mt-4 fw-bold">How to Get Started</h3>
+    <p>
+        Getting started is simple and low-risk. Select an ad product that aligns with your goals, then place a bid to enter the auction. If you win the auction, you’ll gain increased visibility, engage more clients, and have a better chance of securing the projects you’re most interested in.
+    </p>
+
+    <h3 class="mt-4 fw-bold">Where Do I Place a Bid for an Ad?</h3>
+    <p>
+        After choosing the ad product that fits your needs, placing a bid is quick and easy. Follow a few simple steps to submit your bid and find out if you’ve won the auction. These articles offer structured walkthroughs for setting up and managing essential features.
+    </p>
+
+    <h3 class="mt-4 fw-bold">Advertising Options</h3>
+    <p>
+        • Enhanced Proposals<br>
+        • Availability Indicator<br>
+        • Profile Promotion
+    </p>
+
+    <h3 class="mt-4 fw-bold">Helpful Resources</h3>
+    <p>
+        Find out how advertising can increase your visibility and help you secure the best opportunities.
+    </p>
+    <p>
+        • Ads Guide – Build, manage, and optimize your campaigns<br>
+        • Master Your Ads – Effortlessly create and optimize<br>
+        • RightFreelancer – Design, manage, and enhance ad campaigns
+    </p>
+</div>
+
 </section>
 <!-- About area end --><div class="credit-area">
     <div class="container">

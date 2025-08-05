@@ -397,17 +397,17 @@ function get_attachment_image_by_id($id, $size = null, $default = false)
     return $return_val;
 }
 
-function get_user_lang()
-{
-    return $lang = LanguageHelper::user_lang_slug();
-}
+// function get_user_lang()
+// {
+//     return $lang = LanguageHelper::user_lang_slug();
+// }
 
-function get_user_lang_direction()
-{
-    $default = \App\Models\Language::where('default', 1)->first();
-    $user_direction = \App\Models\Language::where('slug', session()->get('lang'))->first();
-    return !empty(session()->get('lang')) ? $user_direction->direction : $default->direction;
-}
+// function get_user_lang_direction()
+// {
+//     $default = \App\Models\Language::where('default', 1)->first();
+//     $user_direction = \App\Models\Language::where('slug', session()->get('lang'))->first();
+//     return !empty(session()->get('lang')) ? $user_direction->direction : $default->direction;
+// }
 
 function filter_static_option_value(string $index, array $array = [])
 {
@@ -2235,41 +2235,41 @@ function render_site_title($title){
 HTML;
 }
 
-function render_site_meta(){
+// function render_site_meta(){
 
-    $user_lang = LanguageHelper::user_lang_slug();
-    $site_tags = get_static_option('site_meta_tags');
-    $site_desc =  get_static_option('site_meta_description');
-    $site_og_meta_title =  get_static_option('og_meta_title');
-    $site_og_meta_description =  get_static_option('og_meta_description');
-    $site_og_meta_site_name =  get_static_option('og_meta_site_name');
-    $site_og_meta_url =  get_static_option('og_meta_url');
-    $site_og_meta_image =  render_og_meta_image_by_attachment_id(get_static_option('og_meta_image'));
-    $site_og_meta_image_twitter = render_twitter_meta_image_by_attachment_id(get_static_option('og_meta_image')) ;
-    $website_url = \URL::current();
+//     $user_lang = LanguageHelper::user_lang_slug();
+//     $site_tags = get_static_option('site_meta_tags');
+//     $site_desc =  get_static_option('site_meta_description');
+//     $site_og_meta_title =  get_static_option('og_meta_title');
+//     $site_og_meta_description =  get_static_option('og_meta_description');
+//     $site_og_meta_site_name =  get_static_option('og_meta_site_name');
+//     $site_og_meta_url =  get_static_option('og_meta_url');
+//     $site_og_meta_image =  render_og_meta_image_by_attachment_id(get_static_option('og_meta_image'));
+//     $site_og_meta_image_twitter = render_twitter_meta_image_by_attachment_id(get_static_option('og_meta_image')) ;
+//     $website_url = \URL::current();
 
-    return <<<HTML
-<!-- Primary Meta Tags -->
-<meta name="title" content="{$site_og_meta_title}">
-<meta name="description" content="{$site_desc}">
-<meta name="keywords" content="{$site_tags}">
+//     return <<<HTML
+// <!-- Primary Meta Tags -->
+// <meta name="title" content="{$site_og_meta_title}">
+// <meta name="description" content="{$site_desc}">
+// <meta name="keywords" content="{$site_tags}">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="{$website_url}">
-<meta property="og:title" content="{$site_og_meta_title}">
-<meta property="og:description" content="{$site_desc}">
-{$site_og_meta_image}
+// <!-- Open Graph / Facebook -->
+// <meta property="og:type" content="website">
+// <meta property="og:url" content="{$website_url}">
+// <meta property="og:title" content="{$site_og_meta_title}">
+// <meta property="og:description" content="{$site_desc}">
+// {$site_og_meta_image}
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{$website_url}">
-<meta property="twitter:title" content="{$site_og_meta_title}">
-<meta property="twitter:description" content="{$site_desc}">
-{$site_og_meta_image_twitter}
-HTML;
+// <!-- Twitter -->
+// <meta property="twitter:card" content="summary_large_image">
+// <meta property="twitter:url" content="{$website_url}">
+// <meta property="twitter:title" content="{$site_og_meta_title}">
+// <meta property="twitter:description" content="{$site_desc}">
+// {$site_og_meta_image_twitter}
+// HTML;
 
-}
+// }
 
 
 function render_page_meta_data($blog_post){

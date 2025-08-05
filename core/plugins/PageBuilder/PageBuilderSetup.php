@@ -177,14 +177,14 @@ class PageBuilderSetup
         return $output;
     }
 
-    public static function getWidgetArgs($widget)
-    {
-        return [
-            'name' => $widget->addon_name,
-            'namespace' => $widget->addon_namespace,
-            //                'location' => $location,
-            'id' => $widget->id,
-            'column' => $args['column'] ?? false
-        ];
-    }
+    // public static function getWidgetArgs($widget)
+    // {
+    //     return [
+    //         'name' => $widget->addon_name,
+    //         'namespace' => $widget->addon_namespace,
+    //         //                'location' => $location,
+    //         'id' => $widget->id,
+    //         'column' => $args['column'] ?? false
+    //     ];
+    // }
 }
