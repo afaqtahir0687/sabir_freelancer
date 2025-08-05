@@ -1,0 +1,45 @@
+{
+    "name": "HourlyJob",
+    "alias": "hourlyjob",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\HourlyJob\\App\\Providers\\HourlyJobServiceProvider"
+    ],
+    "files": [],
+    "xilancerMetaData": {
+        "plugin_type": "external",
+        "admin_settings": {
+            "menu_item": [
+                {
+                    "id" : "hourly-job-menu",
+                    "label": "Hourly Jobs",
+                    "route": "admin.hourly.jobs.all",
+                    "parent": null,
+                    "icon": "fa-solid fa-certificate",
+                    "permissions": "freelancer-level-menu",
+                    "class": "bg-danger"
+                },
+                {
+                    "id" : "freelancer-job-menu-settings",
+                    "label": "All Jobs",
+                    "route": "admin.hourly.jobs.all",
+                    "parent":"freelancer-level-menu",
+                    "icon": "fa-solid fa-certificate",
+                    "permissions": "freelancer-level-menu-settings",
+                    "class": "bg-danger"
+                },
+                {
+                    "id" : "freelancer-job-menu-settings",
+                    "label": "Set Minimum Hour",
+                    "route": "admin.hourly.job.hour.settings",
+                    "parent":"freelancer-level-menu",
+                    "icon": "fa-solid fa-certificate",
+                    "permissions": "freelancer-level-menu-settings",
+                    "class": "bg-danger"
+                }
+            ]
+        }
+    }
+}

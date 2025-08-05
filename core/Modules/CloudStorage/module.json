@@ -1,0 +1,48 @@
+{
+    "name": "CloudStorage",
+    "alias": "cloudstorage",
+    "version": "1.0.2",
+    "description": "Cloud Storage is a External Plugin developed by Core Team to enhance platform features",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CloudStorage\\Providers\\CloudStorageServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "xilancerMetaData": {
+        "plugin_type": "external",
+        "admin_settings": {
+            "show_admin_landlord": true,
+            "show_admin_tenant": true,
+            "menu_item": [
+                {
+                    "id" : "cloud-storage-menu",
+                    "label": "Cloud Storage",
+                    "route": "admin.cloud.storage.settings",
+                    "parent": null,
+                    "icon": "fa-solid fa-cloud",
+                    "permissions": "cloud-storage",
+                    "class": "plugin-menu"
+                },
+                {
+                    "id" : "cloud-storage-settings-menu",
+                    "label": "Cloud Settings",
+                    "route": "admin.cloud.storage.settings",
+                    "parent": "cloud-storage-menu",
+                    "permissions": "cloud-storage",
+                    "class": "bg-danger"
+                },
+                {
+                    "id" : "cloud-front-cdn-settings-menu",
+                    "label": "Cloud Front Settings",
+                    "route": "admin.cloud.storage.front.settings",
+                    "parent": "cloud-storage-menu",
+                    "permissions": "cloud-storage",
+                    "class": "bg-danger"
+                }
+            ]
+        }
+    }
+}

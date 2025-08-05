@@ -1,0 +1,17 @@
+.awesome-cropper {
+}
+.awesome-cropper-drop-area {
+}
+.awesome-cropper .preview {
+}
+.awesome-cropper .modal, .awesome-cropper .modal.fade.in {
+  top: 1%
+}
+.awesome-cropper .modal-dialog {
+  width: 900px;
+}
+
+.awesome-cropper .modal-dialog img {
+	width: 100%;
+}
+

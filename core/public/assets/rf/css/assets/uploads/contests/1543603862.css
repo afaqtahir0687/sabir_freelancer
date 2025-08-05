@@ -1,0 +1,1073 @@
+/*LatoFont*/
+@font-face {
+  src: url("../fonts/Lato-Regular.ttf");
+  font-family: Lato-Regular;
+}
+@font-face {
+  src: url(../fonts/Lato-Black.ttf);
+  font-family: Lato-Black;
+}
+@font-face {
+  src: url(../fonts/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+@font-face {
+  src: url(../fonts/Lato-Light.ttf);
+  font-family: Lato-Light;
+}
+@font-face {
+  src: url(../fonts/Lato-LightItalic.ttf);
+  font-family: Lato-LightItalic;
+}
+body {
+	font-family:Arial, Tahoma, Verdana, sans-serif;
+	font-weight:300;
+	color:#333333;
+}
+.top-nav{
+background-color: #f1655b;
+}
+.top-nav-font{
+	color: white !important;
+	font-family: Lato-Light;
+}
+.nav-align{
+	float: right !important;
+}
+.fas-font{
+	color: white !important;
+	font-family: Lato-Light !important;
+}
+.fas{
+	color: white !important;
+}
+/*SECOND NAV*/
+.second-nav{
+background-color: white;
+box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+
+}
+.top-btn{
+	float: right;
+	display: none;
+}
+.hospitall-logo{
+	color: black;
+	font-family: Lato-Black;
+	font-size: 30px !important;
+}
+.hospitall-logo-1{
+	color: #f1655b;
+	font-family: Lato-Black;
+	font-size: 30px !important;
+
+}
+.second-nav-font ul li a {
+	color: black !important;
+	font-family: Lato-Regular;
+	float: right !important;
+}
+.home{
+	background-color: #f1655b;
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+.second-nav-right{
+float: right !important;
+}
+/* Main Banner*/
+.main-bg{
+	background-image: url("../images/home/main.png");
+	width: 100% !important;
+	height: 450px;
+	background-repeat: no-repeat;
+}
+.welcome-font{
+	font-family: Lato-Black;
+	color: black;
+	text-align: center !important;
+	margin-bottom: 100px;
+	font-size: 40px;
+	margin-top: 220px;
+}
+.procedures-font{
+	color: #f1655b;
+}
+/*THIRD FONT*/
+.nav-i{
+	color: white !important;
+	text-align: center;
+}
+.third-nav-font{
+	color: white !important;
+	font-family: Lato-Light;
+	text-align: center; !important;
+}
+.third-nav{
+background-color: black;
+opacity: 0.6;
+ width: 100%;
+ margin-bottom: 65px;
+}
+.third-nav-font ul li a {
+	color: white !important;
+	font-family: Lato-Light;
+	float: right !important;
+	margin-left:  0px;
+}
+.hello ul li a {
+padding-left: 60px !important;
+}
+.head{
+	margin-top: 80px;
+}
+
+/*PROCEDURE SECTION*/
+.procedure-font-heading{
+	font-family: Lato-Black;
+	color: black;
+	text-align: center !important;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.procedure-font-heading-spam{
+	font-family: Lato-Black;
+	color: #f1655b;
+	text-align: center !important;
+	margin-top: 70px;
+	margin-bottom: 60px;
+	font-size: 28px;
+}
+.box-img{
+	height: 70%;
+	width: 100%;
+	background-color: white;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.box-img-1{
+	height: 300px;
+	width: 100%;
+}
+.feature-box{
+	width: 100%;
+	height: 100%;
+	border: solid 1px;
+	border-color: #f1655b;
+	background-color: white;
+}
+
+
+.procedure-box{
+	margin-bottom: 0;
+	border: solid 1px #f1655b;
+}
+
+ .procedure-img {
+ 	margin-bottom: 0;
+ }
+
+.procedure-img-container {
+  position: relative;
+}
+
+.procedure-name{
+	font-family: Lato-Bold;
+	color:black;
+	margin-top: 10px;
+	font-size: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.procedure-box:hover .overlay {
+	display: block;
+	opacity: 1;
+}
+
+
+.procedure-btn{
+	border-radius: 5% !important;
+    background-color: #f1655b;
+    position:relative;
+    left:36%;
+    border: solid 3px;
+	border-color: white !important;
+	color: white;
+	margin-top: 10px;
+}
+.procedure-name-overlay{
+	font-family: Lato-Bold;
+	color:white;
+	margin-top: 25%;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.line{
+	background-color: white;
+	height: 3px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.procedures-description{
+	text-align: center;
+	font-family: Lato-Light;
+	color: white;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.bullete{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 30px;
+}
+.product-bg{
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 200px;
+}
+.product-img{
+margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 60px;
+}
+.product-bg-1{
+	background-color: #f1655b;
+	width: 100%;
+	height: 200px;
+}
+
+
+@media screen and (max-width: 767px) {
+ .third-nav{
+width: 100%;
+}
+.s01 form .inner-form {
+	width: 100%;
+  }
+  .top-btn{
+  	display: block;
+  }
+  .home{
+	background-color: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+}
+.right{
+	float: right !important;
+}
+
+
+
+/*DOCTORS SECTION*/
+.doctor-box{
+	width: 100%;
+	height: 400px !important;
+	border: solid 1px;
+	border-color: #f1655b;
+	background-color: white;
+	background-image: url("../images/home/doctor.png");
+	background-repeat: no-repeat;
+}
+
+.light-bg{
+	background-color: #f1f1f1;
+	border-right: 5px solid #f1655b;
+	margin-top: 80%;
+	margin-bottom:  50%;
+	margin-right: 0px;
+}
+
+.doctor-name{
+	font-family: Lato-Black;
+	color: black;
+	font-size: 20px;
+}
+.designation{
+	font-family: Lato-LightItalic;
+	color: #f1655b;
+	font-size: 22px;
+}
+
+/*OVERLAY IMAGE */
+
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f1655b;
+  margin-right: 15px;
+  height: 245px;
+  margin-top: 30%;
+  margin-left: 15px;
+  width: 90%;
+}
+
+.light-bg:hover .overlay1 {
+  opacity: 1;
+}
+
+/*INNER OVERLAY*/
+.doctor-name-overlay{
+	font-family: Lato-Black;
+	color: white;
+	font-size: 20px;
+	margin-left: 0px;
+	padding-top: 30px;
+	text-align: center;
+
+}
+
+.doctor-name-overlay a {
+	text-decoration: none !important;
+	color: white !important;
+}
+.doctor-des-overlay{
+	font-family: Lato-LightItalic;
+	color: white;
+	font-size: 24px;
+	margin-left: 0px;
+	text-align: center;
+}
+.doctor-des-overlay-1{
+	font-family: Lato-LightItalic;
+	color: white;
+	font-size: 18px;
+	margin-left: 0px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.fas-1{
+color: white;
+padding-left: 23%;
+
+}
+
+/*FEATURED PARTNERS*/
+.labs{
+background-color: #f1655b;
+width: 100%;
+}
+.al-shafi{
+font-family: Lato-Black;
+color: white;
+padding-left: 10px;
+font-size: 17px;
+padding-top: 20px;
+
+}
+.fas-part{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+/*FEATURED PARTNERS OVERLAY*/
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f1655b;
+
+  height: 245px;
+  width: 90%;
+  height: 100%;
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+.labs:hover .overlay2 {
+  opacity: 1;
+}
+.lab-font{
+	font-family: Lato-Bold;
+	color: white;
+	font-size: 17px;
+	padding-top: 100px;
+	text-align: center;
+}
+.location{
+	margin-left: 0px;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+/*
+OVERLAY 3*/
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f1655b;
+  height: 100%;
+  width: 100%;
+  margin-left: 0px;
+}
+.al-shafi-1:hover .overlay3 {
+  opacity: 1;
+}
+.procedure-btn-1{
+	border-radius: 0% !important;
+    background-color: #fbaf3f;
+    position:relative;
+    left:32%;
+	color: white;
+	padding-bottom: 40px;
+	font-family: Lato-Black;
+margin-top: 20px;
+
+}
+.general-dentistry{
+font-family: Lato-Black;
+color: white;
+font-size: 17px;
+text-align: center;
+padding-top: 90px;
+}
+.lab-here{
+	width: 100%;
+	height: 100%;
+}
+
+.table td {
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+	border:0px !important;
+}
+
+
+.al-shafi-1{
+background-color: #f1655b;
+width: 100%;
+}
+.slider-btn1{
+	border-radius: 0% !important;
+    background-color: #2f3749;
+    position:relative;
+	color: white;
+	padding-bottom: 40px;
+	font-family: Lato-Black;
+	margin-top: 20px;
+	margin-right: 0px;
+}
+.slider-btn2{
+	border-radius: 0% !important;
+    background-color: #f1655b;
+    position:relative;
+	color: white;
+	padding-bottom: 40px;
+	font-family: Lato-Black;
+	margin-top: 20px;
+	margin-right: 0px;
+}
+
+/*FOOTER AREA*/
+.footer{
+	margin-top: 50px;
+	background-color: #2f3749;
+	width: 100% !important;
+	background-repeat: no-repeat;
+}
+.hospitall-logo1{
+	color: white;
+	font-family: Lato-Black;
+	font-size: 30px !important;
+}
+.hospit
+{
+	margin-top: 60px;
+}
+.contact{
+	color: white;
+	font-family: Lato-Black;
+	font-size: 26px !important;
+	margin-top: 18px;
+}
+.proc{
+	font-family: Lato-Light;
+	color: white;
+	font-size: 30px;
+	padding-left: 15px;
+}
+.copy{
+	font-family: Lato-Light;
+	color: white;
+	font-size: 18px;
+	padding-left: 15px;
+}
+.proc-1{
+	font-family: Lato-Light;
+	color: white;
+	font-size: 24px;
+	padding-left: 15px;
+	padding-top: 0px;
+}
+.proc-des{
+	font-family: Lato-Light;
+	color: white;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.bull{
+	padding-left: 14px;
+	padding-top: 5px;
+}
+.hospita
+{
+	margin-top: 30px;
+	list-style: none;
+}
+
+
+
+.hospita::before{
+	background: url('../images/home/bullete1.png') no-repeat !important;
+	padding-left: 30px;
+	color:white;
+	font-size: 25px;
+	line-height: 25px;
+}
+.footer-1{
+	background-color: #f1655b;
+}
+.rights-hospitall{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Lato-Light;
+}
+/*SECOND PAGE*/
+.dental-box{
+	width: 100%;
+	height: 100%;
+	border: solid 3px;
+	border-color: #f1655b;
+	background-color: #f1f1f1;
+
+}
+.dental-img{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.dental-back{
+	background-color: #f1655b;
+	width: 50%;
+	margin-left: 25%;
+}
+.dental-procedure-name{
+	font-family: Lato-Bold;
+	color:black;
+	margin-top: 65px;
+	font-size: 20px;
+	text-align: center;
+}
+/*OVERLAY IMAGE DENTAL */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f1655b;
+  margin-left: 0px;
+}
+
+.dental-box:hover .overlay {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+
+/*Exrta css*/
+.ml7 {
+  position: relative;
+	font-family: Lato-Black;
+	color: black;
+	text-align: center !important;
+	margin-bottom: 100px;
+	font-size: 60px;
+	margin-top: 195px;
+}
+.ml7 .text-wrapper{
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter{
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+/*PACKAGES*/
+.package-name{
+	font-family: Lato-Bold;
+	color:black;
+	margin-top: 20px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.line-pkg{
+	background-color: darkgrey;
+	height: 3px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.pkg-des{
+	font-family: Lato-Bold;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.pkg-btn{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 7px 22px;
+  font-size: 12px;
+margin-left: 10px;
+}
+.success {
+  border-color: darkgrey;
+  color: black;
+  border-radius: 20px;
+  font-family: Lato-Bold;
+}
+.vl {
+    border-left: 2px solid darkgrey;
+    height: 100%;
+    position: absolute;
+    margin-left: 0px;
+    top: 0;
+}
+.pkg-btn-1{
+	border-radius: 0% !important;
+    background-color: #fbaf3f;
+    position:relative;
+	color: white;
+	font-family: Lato-Black;
+	margin-top: 26px;
+	width: 100%;
+}
+.lab-pkg{
+	width: 100%;
+	height: 100%;
+}
+.review-text{
+font-family: Lato-Light;
+color: darkgrey;
+font-size: 24px;
+padding-top: 15px;
+text-align: center;
+}
+.star-img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.price{
+	text-align: center;
+	color: #f1655b;
+	font-family: Lato-Black;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 18px;
+}
+.pkg-box{
+	width: 100%;
+	height: 100%;
+	border: solid 1px;
+	border-color: #f1655b;
+	background-color: white;
+}
+
+/*MODEL*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*DOCTOR PROFILE PAGE*/
+.doctor-profile-bg{
+	background-color: #f1f1f1;
+}
+.review-btn{
+	background-color: #fbaf3f;
+	color: white;
+	border-radius: 0px !important;
+		margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+.call-btn{
+	background-color: #f1655b;
+	color: white;
+	border-radius: 0px !important;
+		margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+.msg-btn{
+	background-color: #808284;
+	color: white;
+	border-radius: 0px !important;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.star-rev{
+	padding-bottom: 20px;
+}
+.doctor-here{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.doctor-profile-name{
+	font-family: Lato-Black;
+	color: black;
+	font-size: 30px;
+	margin-top: 40px;
+}
+.speciality{
+	font-family: Lato-LightItalic;
+	color: #f1655b;
+	font-size: 20px;
+}
+.review-profile{
+font-family: Lato-Light;
+color: darkgrey;
+font-size: 24px;
+padding-top: 15px;
+}
+.experience-font{
+	font-family: Lato-Bold;
+	color: black;
+	font-size: 20px;
+}
+.experience-span{
+	font-family: Lato-Light;
+	color: black;
+	font-size: 20px;
+	padding-left: 40px;
+}
+.description-line{
+	background-color: #f1655b;
+	width: 95px;
+	height: 5px;
+}
+.doctor-description{
+	color: #808284;
+	font-family: Lato-Regular;
+	font-size: 14px;
+	padding-top: 30px;
+	text-align: justify;
+}
+.doctor-profile-bg1{
+	background-color: #f1f1f1;
+	margin-top: 30px;
+}
+.details-font{
+	font-family: Lato-Bold;
+	color: black;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.description-line1{
+	background-color: #808284;
+	width: 100%;
+	height: 2px;
+}
+.email-font{
+	font-family: Lato-Bold;
+	color: black;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+.email-font1{
+	font-family: Lato-Regular;
+	color: black;
+	font-size: 16px;
+	padding-top: 20px;
+}
+.fb{
+	width: 28px;
+	height: 28px;
+}
+
+.doctor-end-bg{
+	background-color: #f1f1f1;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 15px;
+
+}
+.doc-end-1{
+	background-image: url("../images/doctor-profile/doctor.png");
+	width: 100% !important;
+		height: 220px;
+	background-repeat: no-repeat;
+}
+
+.meet-font{
+    font-family: Lato-Black;
+    color: black;
+    padding-top: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.appoint-doc-btn{
+	margin-top: 80px;
+	background-color: #f1655b;
+	color: white;
+	font-family: Lato-Black;
+	border-radius: 0px !important;
+	font-size: 18px;
+}
+
+
+
+/*H-Shop*/
+
+
+.sidebar-bg {
+	background: #f5f7f8;
+}
+
+.aside-heading{
+	background: #f1655b; 
+	text-align: center; 
+	padding: 15px;
+	color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar-bg ul {
+	padding-left: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.sidebar-bg ul li { 
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+.sidebar-bg ul li a{
+	color: #000;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+.category-head-bg{
+	background: #f1655b;
+    border-bottom: 2px solid darkgrey;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: normal;
+    margin: 0;
+    padding: 8px 0 8px 20px;
+    font-weight: 700;
+}
+
+.category-head-font{
+	font-family: Lato-Black;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 10px !important;
+}
+
+
+
+.aside-heading ul li a {
+    color: #000;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+	padding-left: 50px;
+}
+.aside-heading ul li {
+	list-style: none;
+}
+.Left {
+    float: left;
+    padding-right: 0;
+    width: 260px;
+    background: #f5f7f8;
+    width: 100%;
+}
+.h-shop-btn{
+	    background: #fbaf3f;
+	    border-radius: 0px !important;
+	    color: white;
+	    font-family: Lato-Regular;
+	    font-size: 16px;
+
+}
+.h-shop-btn1{
+	    background: #f1f1f1;
+	    border-radius: 0px !important;
+	    color: white;
+	    font-family: Lato-Regular;
+	    font-size: 16px;
+	    border: 1px solid ;
+	    border-color: #fbaf3f !important;
+
+}
+.category-price{
+	text-align: center;
+	color: #f1655b;
+	font-size: 18px;
+	font-family: Lato-Black;
+	padding-top: 30px;
+}
+.category-des{
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	font-family: Lato-regular;
+	padding-top: 30px;
+}
+.zoom {
+    padding: 50px;
+    transition: transform .5s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.img-category{
+	height: 285px;
+	 width: 100%;
+	 border-bottom: 4px solid #ccc;
+}
+.ear-font{
+	font-family: Lato-Black;
+	font-size: 30px;
+}
+.ear-font-des{
+	font-family: Lato-Regular;
+	font-size: 14px;
+}
+/*Breadcrumbs*/
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: transparent;
+    color: black;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    color: black;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ":\00a0";
+    color: black;
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+    color: black;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+    color: black;
+}

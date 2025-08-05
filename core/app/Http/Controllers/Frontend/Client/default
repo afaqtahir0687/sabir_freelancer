@@ -1,0 +1,52 @@
+server {
+    server_name rightfreelancer.com www.rightfreelancer.com;
+    root /var/www/html/core/public;
+
+    index index.html index.htm index.php;
+
+    charset utf-8;
+
+    location / {
+       # try_files $uri $uri/ /index.php?$query_string;
+try_files $uri $uri/ /index.php$is_args$args;
+    }
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /robots.txt  { access_log off; log_not_found off; }
+
+    location ~ \.php$ {
+#fastcgi_pass 127.0.0.1:8000;
+      fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/rightfreelancer.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/rightfreelancer.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+}
+server {
+    if ($host = www.rightfreelancer.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    if ($host = rightfreelancer.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    server_name rightfreelancer.com www.rightfreelancer.com;
+    return 404; # managed by Certbot
+
+
+
+
+}

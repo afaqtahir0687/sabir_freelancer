@@ -1,0 +1,65 @@
+<div class="span9">
+        <h2 class="recommended-border-bottom">Recommended Projects <a href="http://localhost/fazalmiran/dashboard" class="pull-right font-20 refresh-padding"><i class="fa fa-refresh "></i> Refresh</a></h2>
+        <div class="clearfix"></div>
+		<div id="ajaxLoader" style="display: none;"></div>
+		<div id="load_more_project"><input class="rowcount" id="rowcount" value="9" type="hidden"><input class="pagenum" value="2" name="pagenum" type="hidden">
+        <input class="pagenum" value="1" name="pagenum" type="hidden">
+        <input class="rowcount" id="rowcount" value="9" type="hidden">
+        <input class="total-page" value="5" type="hidden">        
+                <div class="recommended-box">
+          <div class="recommeneded-1">
+            <div class="recommeneded-img"><i class="fa fa-android"></i></div>
+          </div>
+          <div class="recommeneded-2">
+            <h4 class="recom-margin">bitcoin Web development</h4>
+            <div><span><span class="read-less-content" id="read-less-1">I need a new website. I need you to design and build a website for my small business. i m work to bu....<a href="http://localhost/fazalmiran/projects/bid/list/Oyvkz4RhNB50o4ys9L6ockGc4D4ICZshcaHpYSUvO5c">Read More</a></span><span class="read-more-content" id="read-more-1" style="display:none;">I need a new website. I need you to design and build a website for my small business. i m work to build website
+i want to make website like 
+freebitco[dot]in
+i m interested in persion who will build this website quickly<a href="javascript:void(0)" onclick="show_more('less',1)"> Read Less</a></span></span></div>
+          </div>
+          <div class="recommeneded-3"> <img src="http://localhost/fazalmiran/assets/images/recom-icon.jpg" alt=""> </div>
+          <div class="recommeneded-4">
+            <h4 class="recom-margin">10-30 USD</h4>
+            2 years  ago</div>
+        </div>
+                <div class="recommended-box">
+          <div class="recommeneded-1">
+            <div class="recommeneded-img"><i class="fa fa-android"></i></div>
+          </div>
+          <div class="recommeneded-2">
+            <h4 class="recom-margin">Do some 3D Modelling</h4>
+            <div><span><span class="read-less-content" id="read-less-2">I am designing a reusable drinking bottle. The majority of the bottle will be made of glass, but it ....<a href="http://localhost/fazalmiran/projects/bid/list/ckWt-JzMbUHt-zsAIZYBcvCc55BPtbhb_h90tpUILVA">Read More</a></span><span class="read-more-content" id="read-more-2" style="display:none;">I am designing a reusable drinking bottle. The majority of the bottle will be made of glass, but it will also have a plastic lid and a silicon sleeve. I have spent a ton of time reviewing hundreds of potential shapes and know exactly what I want to create. Thus, I'm just looking for someone who can take my sketches and create sophisticated 3D CAD files for me to share with my glass, plastic, and silicon manufacturers. If you don't have this exact experience or some very similar experience, please do not respond. Thank you in advance for any proposals!<a href="javascript:void(0)" onclick="show_more('less',2)"> Read Less</a></span></span></div>
+          </div>
+          <div class="recommeneded-3"> <img src="http://localhost/fazalmiran/assets/images/recom-icon.jpg" alt=""> </div>
+          <div class="recommeneded-4">
+            <h4 class="recom-margin">10-30 USD</h4>
+            2 years  ago</div>
+        </div>
+                <div class="recommended-box"><div class="recommeneded-1"><div class="recommeneded-img"><i class="fa fa-android"></i></div></div><div class="recommeneded-2"><h4 class="recom-margin">PHP, CSS, JQuerym MySQL developer</h4><div>After a PHP developer for a long-term relationship to work on different projects. Will be given a test.</div></div><div class="recommeneded-3"> <img src="http://localhost/fazalmiran/assets/images/recom-icon.jpg" alt=""> </div><div class="recommeneded-4"><h4 class="recom-margin">2-8</h4>2 years  ago</div></div><div class="recommended-box"><div class="recommeneded-1"><div class="recommeneded-img"><i class="fa fa-android"></i></div></div><div class="recommeneded-2"><h4 class="recom-margin">This is for new test</h4><div>This is for new test This is for new test This is for new test This is for new test This is for new test This is for new test</div></div><div class="recommeneded-3"> <img src="http://localhost/fazalmiran/assets/images/recom-icon.jpg" alt=""> </div><div class="recommeneded-4"><h4 class="recom-margin">10-30</h4>2 years  ago</div></div></div>
+                <div class="recommended-box" id="load_more_btn"> <a href="javascript:void(0)" onclick="return ShowMoreProjects()" class="text-center"><i class="fa fa-plus"></i> Load More Projects</a> </div>
+                <div class="clearfix"></div>
+<!--    <h2>Newsfeed</h2>
+        <div class="newsfeed  msg-border-btm">
+          <div class="news-feed-text-box">
+            <div class="news-feed-img"><img class="" src="http://localhost/fazalmiran/assets/images/icoc.PNG" /> </div>
+            <div class="dash-news-feed-text">
+              <p><a href="#">waynewan</a> released a milestione payment of <b>$525 USD</b> for <a href="#">Online Stock Exchange Platform</a><br/>
+                <span>Yesterday</span><br/>
+              </p>
+              <div class="file-mileston-details"><a href="#">Milestone details: (USD)</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="newsfeed  msg-border-btm">
+          <div class="news-feed-text-box">
+            <div class="news-feed-img"><img class="" src="http://localhost/fazalmiran/assets/images/icoc.PNG" /> </div>
+            <div class="dash-news-feed-text">
+              <p><a href="#">waynewan</a> released a milestione payment of <b>$525 USD</b> for <a href="#">Online Stock Exchange Platform</a><br/>
+                <span>Yesterday</span><br/>
+              </p>
+              <div class="file-mileston-details"><a href="#">Milestone details: (USD)</a></div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    </div>
